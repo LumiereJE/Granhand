@@ -131,36 +131,19 @@ p {
 
 
 
-/* 
-.op_0 {
-    opacity: 0;
-    
+
+/* --------------------------------------- */
+
+.mute {
+	opacity: 0;
+	/* transform: translateY(5%); */
+	transition: all 0.8s;
 }
+
 .sec_active {
-    transition: all 1s;
-    opacity: 1;  
+	opacity: 1;
+	/* transform: translateY(0); */
 }
-.op_1 {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: all 1s;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -173,6 +173,24 @@ p {
     
 }
 
+
+/* --------------------------------------- */
+
+.mute {
+	opacity: 0;
+	transform: translateY(5%);
+	transition: all 0.8s;
+}
+
+.sec_active {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+
+
+
 /* //////text//////////////////////////////////// */
 
 .text_sec p {

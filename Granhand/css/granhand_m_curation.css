@@ -90,14 +90,16 @@ ul {
 
 
 
-/* .contain_3, .contain_4, .contain_5, .contain_6, .contain_7, .contain_8 {
-    opacity: 0;
-} */
+/* --------------------------------------- */
 
+.mute {
+	opacity: 0;
+	/* transform: translateY(5%); */
+	transition: all 0.8s;
+}
 
-/* .opacity {
-	opacity: 1 !important;
-	transition: all 0.5s;
-} */
-
+.sec_active {
+	opacity: 1;
+	/* transform: translateY(0); */
+}
 

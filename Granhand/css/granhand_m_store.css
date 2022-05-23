@@ -182,9 +182,17 @@ ul {
 
 
 
+/* --------------------------------------- */
+
+.mute {
+	opacity: 0;
+	/* transform: translateY(5%); */
+	transition: all 0.8s;
+}
+
 .sec_active {
-	transition: all 1s;
-	opacity: 1;  
+	opacity: 1;
+	/* transform: translateY(0); */
 }
 
 
